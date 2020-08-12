@@ -1,0 +1,19 @@
+{
+    "id": "YMcAjAgWPL4",
+    "manifest_version": 1,
+    "name": "IQM",
+    "version_name": "1.0",
+    "version_number": 1,
+    "sizing_mode": "fit_content",
+    "initial_height": 80,
+    "initial_width": 300,
+    "toolbar_color": "green",
+    "js_files": ["dist/app.js"],
+    "csp_sources": {
+        "frame_srcs": ["https://ad-tech-dev.weather.com/IQM2/app/#/integration/create/67", "https://ad-tech-dev.weather.com/IQM2/app/#/integration/create/67"]
+    },
+    "intercept_url_patterns": [
+        "https://ad-tech-dev.weather.com/IQM2/app/#/integration/create/67",
+        "https://ad-tech-dev.weather.com/IQM2/app/#/integration/create/67"
+    ]
+}
